@@ -48,6 +48,9 @@
   height: 24px; 
   margin-left: 11px;
   background: url(image-path('my_share_button/my_images/douban_before.png')) no-repeat 
+  &:hover{
+    background: url(image-path('my_share_button/my_images/douban_after.png')) no-repeat 
+  }
 }
 .social-share-button-email { 
   display:inline-block; 
