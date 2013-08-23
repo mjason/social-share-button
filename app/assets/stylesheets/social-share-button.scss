@@ -47,7 +47,7 @@
   width: 24px; 
   height: 24px; 
   margin-left: 11px;
-  background: url(image-path('my_share_button/my_images/douban_before.png')) no-repeat 
+  background: url(image-path('my_share_button/my_images/douban_before.png')) no-repeat;
   &:hover{
     background: url(image-path('my_share_button/my_images/douban_after.png')) no-repeat 
   }
@@ -64,7 +64,10 @@
   width: 24px; 
   height: 24px; 
   margin-left: 11px;
-  background: url(image-path('my_share_button/my_images/f+_before.png')) no-repeat 
+  background: url(image-path('my_share_button/my_images/f+_before.png')) no-repeat;
+  &:hover{
+    background: url(image-path('my_share_button/my_images/f+_after.png')) no-repeat 
+  }
 }
 .social-share-button-flickr { 
   display:inline-block; 
@@ -86,6 +89,9 @@
   height: 24px; 
   margin-left: 11px;
   background: url(image-path('my_share_button/my_images/g+_before.png')) no-repeat 
+  &:hover{
+    background: url(image-path('my_share_button/my_images/g+_after.png')) no-repeat 
+  }
 }
 .social-share-button-kaixin001 { 
   display:inline-block; 
@@ -134,14 +140,20 @@
   width: 24px; 
   height: 24px; 
   margin-left: 11px;
-  background: url(image-path('my_share_button/my_images/twitter_before.png')) no-repeat 
+  background: url(image-path('my_share_button/my_images/twitter_before.png')) no-repeat;
+  &:hover{
+    background: url(image-path('my_share_button/my_images/twitter_after.png')) no-repeat 
+  } 
 }
 .social-share-button-weibo { 
   display:inline-block; 
   width: 24px; 
   height: 24px; 
   margin-left: 11px;
-  background: url(image-path('my_share_button/my_images/sina_before.png')) no-repeat 
+  background: url(image-path('my_share_button/my_images/sina_before.png')) no-repeat;
+  &:hover{
+    background: url(image-path('my_share_button/my_images/sina_after.png')) no-repeat 
+  } 
 }
 
 @media only screen and (-webkit-device-pixel-ratio: 2) {
